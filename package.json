@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "name": "boilerplate",
+  "version": "0.0.0",
+  "description": "TypeScript Boilerplate",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "private",
+  "devDependencies": {
+    "requirejs": "~2.1.8",
+    "shelljs": "~0.1.4",
+    "typescript-tools": "latest",
+    "typescript": "latest",
+    "grunt": "~0.4.2",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-compass": "~0.7.0",
+    "grunt-ts": "~1.11.2",
+    "grunt-contrib-requirejs": "~0.4.3",
+    "grunt-file-creator": "~0.1.1",
+    "grunt-play": "~0.1.0",
+    "grunt-tslint": "~0.4.1"
+  },
+  "dependencies": {
+    "pageres": "~0.1.4"
+  }
+}
